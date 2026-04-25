@@ -4,10 +4,10 @@
  */
 
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import LandingPage from './pages/LandingPage.tsx';
-import StudentDashboard from './pages/StudentDashboard.tsx';
-import TeacherDashboard from './pages/TeacherDashboard.tsx';
-import { Toaster } from '@/components/ui/sonner.tsx';
+import LandingPage from './pages/LandingPage';
+import StudentDashboard from './pages/StudentDashboard';
+import TeacherDashboard from './pages/TeacherDashboard';
+import { Toaster } from '@/components/ui/sonner';
 
 export default function App() {
   return (
