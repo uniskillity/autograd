@@ -1,6 +1,6 @@
 import { motion } from 'motion/react';
-import { Button } from '@/components/ui/button.tsx';
-import { Badge } from '@/components/ui/badge.tsx';
+import { Button } from '@/components/ui/button';
+import { Badge } from '@/components/ui/badge';
 import { Link } from 'react-router-dom';
 import { 
   CheckCircle2, 
