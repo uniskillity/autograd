@@ -1,5 +1,5 @@
 import React from 'react';
-import { NavLink } from 'react-router-dom';
+import { NavLink, Link } from 'react-router-dom';
 import { 
   LayoutDashboard, 
   BookOpen, 
@@ -12,8 +12,8 @@ import {
   Users,
   Search
 } from 'lucide-react';
-import { Button } from '@/components/ui/button';
-import { Avatar, AvatarFallback, AvatarImage } from '@/components/ui/avatar';
+import { Button } from '@/components/ui/button.tsx';
+import { Avatar, AvatarFallback, AvatarImage } from '@/components/ui/avatar.tsx';
 import { 
   DropdownMenu, 
   DropdownMenuContent, 
@@ -21,7 +21,7 @@ import {
   DropdownMenuLabel, 
   DropdownMenuSeparator, 
   DropdownMenuTrigger 
-} from '@/components/ui/dropdown-menu';
+} from '@/components/ui/dropdown-menu.tsx';
 
 interface SidebarItemProps {
   to: string;
@@ -47,7 +47,7 @@ const SidebarItem = ({ to, icon: Icon, label }: SidebarItemProps) => (
 
 export default function DashboardLayout({ children, role = 'student' }: { children: React.ReactNode, role?: 'student' | 'teacher' }) {
   return (
-    <div className="flex min-h-screen bg-white">
+    <div className="flex min-h-screen bg-white text-zinc-900">
       {/* Sidebar */}
       <aside className="w-64 border-r border-zinc-200 flex flex-col fixed inset-y-0 left-0 z-50 bg-white">
         <div className="p-8">
@@ -153,4 +153,3 @@ export default function DashboardLayout({ children, role = 'student' }: { childr
     </div>
   );
 }
-import { Link } from 'react-router-dom';

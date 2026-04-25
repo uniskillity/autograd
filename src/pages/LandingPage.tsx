@@ -1,6 +1,6 @@
 import { motion } from 'motion/react';
-import { Button } from '@/components/ui/button';
-import { Badge } from '@/components/ui/badge';
+import { Button } from '@/components/ui/button.tsx';
+import { Badge } from '@/components/ui/badge.tsx';
 import { Link } from 'react-router-dom';
 import { 
   CheckCircle2, 
@@ -293,8 +293,9 @@ const Footer = () => (
       <div className="pt-12 border-t border-zinc-200 flex flex-col md:flex-row justify-between items-center gap-6 text-[10px] uppercase tracking-widest font-bold text-zinc-400">
         <p>© 2026 AutoGrade Systems Inc.</p>
         <div className="flex gap-12">
-          <span>San Francisco, CA</span>
-          <span>Tokyo, JP</span>
+          <span>Islamabad, PK</span>
+          <span>Lahore, PK</span>
+          <span>Karachi, PK</span>
         </div>
       </div>
     </div>

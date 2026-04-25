@@ -1,7 +1,7 @@
 import { useState } from 'react';
-import DashboardLayout from '@/components/DashboardLayout';
-import { Button } from '@/components/ui/button';
-import { Badge } from '@/components/ui/badge';
+import DashboardLayout from '@/components/DashboardLayout.tsx';
+import { Button } from '@/components/ui/button.tsx';
+import { Badge } from '@/components/ui/badge.tsx';
 import { 
   Send, 
   AlertCircle,
